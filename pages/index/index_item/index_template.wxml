@@ -1,0 +1,17 @@
+<template name="dataItem">
+    <view class='post-container'>
+      <view class='post-author-date'>
+        <image class="post-author" src='{{post_author}}'></image>
+        <text class='post-date'>{{date}}---{{idx}}</text>
+      </view>
+      <text class='post-title'>{{title}}</text>
+      <image class="post-image" src='{{image}}'></image>
+      <text class='post-content'>{{content}}</text>
+      <view class='post-like'>
+        <image class="post-like-img" src='{{startIcon}}'></image>
+        <text class='post-like-font'>{{startCount}}</text>
+        <image class="post-like-img" src='{{watchIcon}}'></image>
+        <text class='post-like-font'>{{watchNum}}</text>
+      </view>
+    </view>
+</template>

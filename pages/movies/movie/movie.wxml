@@ -1,0 +1,8 @@
+<import src="../starts/starts.wxml" />
+<template name="movie">
+  <view class='movie-container'>
+    <image class="movie-img" src='../images/zhanlang.webp'></image>
+    <text class='movie-name'>战狼</text>
+    <template is="starts" />
+  </view>
+  </template>

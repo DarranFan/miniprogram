@@ -1,0 +1,91 @@
+var local_data = [
+  {
+    post_author: '../images/avatar/1.png',
+    post_author_detail: '../../images/avatar/1.png',
+    date: 'Nov 16 2016',
+    title: '正是虾肥蟹壮',
+    image: '../images/post/crab.png',
+    content: '富士康防辐射服快速开发开放我渴望我快十斤放松放松快捷方式服务如何我认为热                   还我发空间书法家日未付款士康防辐射服快速开发开士康防辐射服快速开发开士康                   防辐射服快速开发开士康防辐射服快速开发开。',
+    startIcon: '../images/icon/chat.png',
+    startCount: 92,
+    watchIcon: '../images/icon/view.png',
+    watchNum: 65,
+    indexId:0,
+    headImage: '../../images/post/crab.png',
+    author:'林白衣',
+    dateTime:'24小时前',
+    detaile:'阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！'
+  },
+  {
+    post_author: '../images/avatar/2.png',
+    post_author_detail: '../../images/avatar/2.png',
+    date: 'Nov 16 2016',
+    title: '正是虾肥蟹壮',
+    image: '../images/post/bl.png',
+    content: '大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹                   大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹大闸蟹                   大闸蟹大闸蟹大闸蟹大闸蟹。',
+    startIcon: '../images/icon/chat.png',
+    startCount: 920,
+    watchIcon: '../images/icon/view.png',
+    watchNum: 650,
+    indexId: 1,
+    headImage: '../../images/post/bl.png',
+    author: '林白衣-1',
+    dateTime: '24小时前-1',
+    detaile: '-1-阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！'
+  },
+  {
+    post_author: '../images/avatar/3.png',
+    post_author_detail: '../../images/avatar/3.png',
+    date: 'Nov 16 2016',
+    title: '山东泰山',
+    image: '../images/post/cat.png',
+    content: '五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东五岳泰山在山东。',
+    startIcon: '../images/icon/chat.png',
+    startCount: 920,
+    watchIcon: '../images/icon/view.png',
+    watchNum: 650,
+    indexId: 2,
+    headImage: '../../images/post/cat.png',
+    author: '林白衣2',
+    dateTime: '24小时前2',
+    detaile: '2-阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！'
+  },
+  {
+    post_author: '../images/avatar/4.png',
+    post_author_detail: '../../images/avatar/4.png',
+    date: 'Nov 16 2016',
+    title: '安徽黄山',
+    image: '../images/post/vr.png',
+    content: '黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷黄山大峡谷。',
+    startIcon: '../images/icon/chat.png',
+    startCount: 920,
+    watchIcon: '../images/icon/view.png',
+    watchNum: 650,
+    indexId: 3,
+    headImage: '../../images/post/vr.png',
+    author: '林白衣3',
+    dateTime: '24小时前3',
+    detaile: '3-阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！'
+  },
+  {
+    post_author: '../images/avatar/5.png',
+    post_author_detail: '../../images/avatar/5.png',
+    date: 'Nov 16 2016',
+    title: '西安钟鼓楼',
+    image: '../images/post/vr.png',
+    content: '西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔西安大雁塔。',
+    startIcon: '../images/icon/chat.png',
+    startCount: 920,
+    watchIcon: '../images/icon/view.png',
+    watchNum: 650,
+    indexId: 4,
+    headImage: '../../images/post/vr.png',
+    author: '林白衣5',
+    dateTime: '24小时前5',
+    detaile: '5-阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！阳澄湖大闸蟹很好吃！'
+  }
+]
+
+module.exports = {
+  postLists: local_data
+}

@@ -1,0 +1,19 @@
+<import src="./index_item/index_template.wxml" />
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="../images/wx.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/iqiyi.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../images/vr.png"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for='{{a}}' wx:key='{{index}}' wx:for-itme="item" wx:for-index='idx'>
+    <view catchtap="onDetail" data-indexid ="{{item.indexId}}">
+      <template is="dataItem" data="{{...item,idx}}" />
+    </view>
+  </block>
+</view>
